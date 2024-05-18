@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Old+Standard+TT:wght@700&family=Quicksand:wght@500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  max-width: 1300px;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Common Codes -------------------------------------- */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Abril Fatface", cursive;
+  color: #5f6c37;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59.7px;
+  letter-spacing: 0.5px;
+}
+
+.sub-title {
+  font-family: "Old Standard TT", serif;
+  color: #5f6c37;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.details {
+  color: #363d1e;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  letter-spacing: 0.16px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 12px 90px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.primary-btn {
+  background: #5f6c37;
+  color: white;
+}
+
+.secondary-btn {
+  border: 2px solid #5f6c37;
+  color: #5f6c37;
+}
+.addcart-btn {
+  background: #eaa34d;
+  color: white;
+  position: relative;
+  bottom: 70px;
+  left: 50px;
+}
+
+.price {
+  color: #424b25;
+  font-family: Old Standard TT;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Header Area --------------------------------------  */
+.header-area {
+  background-image: url(images/hero-img/top-bg.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.mainmenu {
+  margin-bottom: 220px;
+}
+.mainmenu ul {
+  display: flex;
+  margin-top: 25px;
+}
+.logo img {
+  height: 50px;
+  margin-top: 10px;
+}
+.mainmenu li a {
+  text-decoration: none;
+  color: #424b25;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.hero-area .container {
+  padding-bottom: 167px;
+  margin-bottom: 100px;
+}
+.new-product {
+  font-size: 30px;
+  padding: 10px;
+  background: #f9de80;
+}
+.hero-image {
+  width: 55%;
+}
+.hero-text {
+  width: 45%;
+}
+.hero-text h1 {
+  font-size: 80px;
+  line-height: 78.32px;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+}
+.hero-text p {
+  margin-top: 16px;
+  margin-bottom: 46px;
+}
+.hero-image img {
+  width: 100%;
+}
+
+/* Product Category Area ------------------------------------------ */
+.product-category {
+  padding: 100px 0px;
+  background-image: url(images/product-category/Frame-bg.png);
+  background-color: rgb(233, 233, 233);
+}
+.product-category .container {
+  display: flex;
+  justify-content: center;
+}
+/* .single-category {
+  padding: 65px;
+  border-radius: 0px 20px;
+  background: #fffdf5;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+} */
+.single-category {
+  width: 274px;
+  height: 274px;
+  border-radius: 0px 20px;
+  background: #fffdf5;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.single-category img {
+  margin-top: 65px;
+}
+
+/* Aromatherapy Area ------------------------------------------ */
+.aromatherapy-area .container {
+  padding: 20px 0px;
+}
+#main {
+  position: absolute;
+  z-index: 3;
+}
+#frame {
+  position: relative;
+  top: 220px;
+  z-index: 2;
+}
+#frame1 {
+  position: relative;
+  left: -170px;
+  top: 200px;
+  z-index: 2;
+}
+#frame2 {
+  position: relative;
+  left: -100px;
+  top: 290px;
+  z-index: 4;
+}
+#leaf {
+  position: relative;
+  left: -100px;
+  top: -200px;
+  z-index: 1;
+}
+.aromatherapy-area {
+  background-image: url(images/aroma-image/Blob-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.aromatherapy-area p {
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+/* Best Seller Product Area ------------------------------------ */
+.products {
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.products .container {
+  padding: 100px 0px;
+}
+.products .title-area {
+  align-items: center;
+  width: 100%;
+}
+.discription {
+  padding: 0px 20px;
+  text-align: justify;
+}
+/* Trends Area --------------------------------------------------- */
+.bestseller-area {
+  background-image: url(images/bestseller-img/bestseller-bg.png);
+}
+
+/* Luxury Soaps Area -------------------------------------------- */
+.luxury-soap-area {
+  background-image: url(images/luxury-soap/Frame-bg.png);
+  background-color: #ccdb99;
+}
+.soap-details {
+  margin-left: 128px;
+}
+
+/* Trends Area --------------------------------------------------- */
+.trends-area {
+  background-image: url(images/trends/trends-bg.png);
+}
+
+/* Blogs Area --------------------------------------------------- */
+.blog-area {
+  margin: 100px 0px;
+}
+.blog-area .title {
+  text-align: center;
+  margin-bottom: 69px;
+}
+.single-blog img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+.single-blog {
+  width: 100%;
+  border-radius: 10px;
+  background: #fffdf5;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin: 0px 10px;
+}
+.blog-discription {
+  padding: 25px 20px;
+}
+.blog-discription hr {
+  margin: 15px 0px;
+}
+.blog-area .blog-btn {
+  text-align: center;
+  margin: 50px 0px 100px 0px;
+}
+
+/* Footer Area ------------------------------------------------ */
+.footer-area {
+  padding: 90px 0px;
+  background: #ccdb99;
+}
+.footer-area .brand-area {
+  width: 30%;
+}
+.brand-area p {
+  margin-top: 32px;
+  line-height: 32.56px;
+  font-size: 16px;
+}
+.footer-area h3 {
+  color: #424b25;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.footer-area span {
+  font-size: 14px;
+  color: #32391c;
+  font-weight: 400;
+  line-height: 32.56px;
+}
+
+.bottom-bar {
+  background: #f9de80;
+  border-top: 3px solid #5f6c37;
+}
+.bottom-bar svg {
+  margin-left: 20px;
+  padding: 15px 0px;
+}
